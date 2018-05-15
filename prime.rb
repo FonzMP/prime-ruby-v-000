@@ -4,7 +4,7 @@ def prime?(int)
   storage = []
   while i <= int
     if int % i == 0
-      storage.push(i, int)
+      storage.push(i)
     end
     i += 1
   end
