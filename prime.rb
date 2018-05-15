@@ -8,5 +8,10 @@ def prime?(int)
     end
     i += 1
   end
-  puts storage
+  array_length = storage.length
+  if array_length >= 2
+    return true
+  else
+    return false
+  end
 end
