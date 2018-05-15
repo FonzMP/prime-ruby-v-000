@@ -11,6 +11,7 @@ def prime?(int)
     i += 1
   end
   array_length = storage.length
+  binding.pry
   if array_length >= 2
     return false
   else
