@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(int)
+  i = 0
   if num % i == 0
     puts "#{num} is not a prime"
   else
