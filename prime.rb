@@ -4,6 +4,8 @@ def prime?(int)
   while i <= int
     if int % i == 0
       return true
+    else
+      return false
     end
     i += 1
   end
