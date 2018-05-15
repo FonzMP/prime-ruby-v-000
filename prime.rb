@@ -2,9 +2,7 @@
 def prime?(int)
   i = 2
   storage = []
-  if int <= 0
-    return false
-  elsif int == 1
+  if int <= 1
     return false
   else
     while i <= int
