@@ -2,9 +2,9 @@
 def prime?(int)
   i = 2
   if num % i == 0
-  return true
+    return true
   else
-    puts "#{num} is a prime"
+    return false
   end
   i += 1
 end
