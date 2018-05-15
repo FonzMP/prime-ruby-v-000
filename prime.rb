@@ -10,7 +10,7 @@ def prime?(int)
   end
   array_length = storage.length
   if array_length >= 2
-    return true
+    return false
   else
     return false
   end
