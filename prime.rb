@@ -4,6 +4,8 @@ def prime?(int)
   storage = []
   if int <= 0
     return false
+  elsif int == 1
+    return false
   else
     while i <= int
       if int % i == 0
